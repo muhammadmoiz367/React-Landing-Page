@@ -1,0 +1,508 @@
+/* navbar */
+#navbar {
+  display: flex;
+  justify-content: center;
+  padding-top: 46px !important;
+}
+#navbar img {
+  margin-right: 200px;
+}
+#navbar ul {
+  width: 550px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#navbar ul li {
+  color: white !important;
+}
+#navbar ul li:hover {
+  color: lightgray !important;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2px;
+}
+
+/* section 1 */
+#section1 {
+  margin-left: -50px;
+  background: transparent url('./images/Section\ 1.png') 0% 0% no-repeat
+    padding-box;
+  height: 1505px;
+}
+
+#section1 #content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section1 #content img {
+  width: 441px;
+  height: 543px;
+}
+#section1 #content div {
+  padding-left: 43px !important;
+}
+#section1 #content div h1 {
+  font-family: 'Autography';
+  font-weight: 100;
+  width: 530px;
+  font-size: 52px;
+  color: white;
+}
+#section1 #content div p {
+  font-family: 'Poppins', sans-serif;
+  width: 396px;
+  font-size: 18px;
+  color: white;
+}
+#section1 #content div button {
+  width: 158px;
+  height: 48px;
+  background-color: white;
+  border: 1px solid white;
+  color: #2d424a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+#section1 #content div button:hover {
+  background-color: rgba(255, 255, 255, 0.856);
+}
+#section1 #content2 {
+  top: 350px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+#section1 #content2 img {
+  margin-top: 80px;
+  margin-left: -290px;
+  width: 470px;
+  height: 257px;
+}
+#section1 #content2 div p:first-of-type {
+  width: 867px;
+  font-family: 'Autography';
+  font-weight: 100;
+  font-size: 52px;
+  color: #2d424a;
+  margin-bottom: -20px !important;
+}
+#section1 #content2 div p {
+  width: 900px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #2d424a;
+}
+#section1 #content2 div button {
+  width: 158px;
+  height: 48px;
+  background-color: #2d424a;
+  border: 1px solid #2d424a;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+#section1 #content2 div button:hover {
+  background-color: #2d424abd;
+}
+
+/* section 2 */
+#line1 {
+  grid-area: line1;
+}
+#section2 #content {
+  grid-area: content;
+}
+#line2 {
+  grid-area: line2;
+}
+
+#section2 {
+  background: transparent url('./images/Sections.png') 0% 0% no-repeat
+    padding-box;
+  margin-top: -160px !important;
+  height: 4146px;
+}
+#section2 #grid {
+  display: grid;
+  grid-template-areas: 'line1 content line2';
+  grid-gap: 10px;
+  padding: 10px;
+}
+#section2 #content {
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+}
+
+#section2 #content img {
+  width: 426px;
+  height: 426px;
+}
+#section2 #content div {
+  padding-right: 64px !important;
+}
+#section2 #content div h1 {
+  margin: 0;
+  font-family: 'Autography';
+  font-weight: 100;
+  width: 530px;
+  font-size: 52px;
+  color: #2d424a;
+  margin-bottom: -20px !important;
+}
+#section2 #content div p {
+  font-family: 'Poppins', sans-serif;
+  width: 490px;
+  font-size: 17px;
+  color: #2d424a;
+}
+#section2 #content div button {
+  width: 158px;
+  height: 48px;
+  background-color: #2d424a;
+  border: 1px solid #2d424a;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+#section2 #content div button:hover {
+  background-color: #2b2725;
+}
+#section2 #line1 {
+  width: 100%;
+  min-width: 120px;
+  height: 150px !important;
+  padding-top: 700px;
+}
+#section2 #line2 {
+  width: 100%;
+  min-width: 120px;
+  height: 150px;
+  padding-top: 250px;
+}
+#section2 #bgService {
+  background: transparent url('./images/BG Services Section1.png') 0% 0%
+    no-repeat padding-box;
+  height: 1200px;
+  margin-top: -60px;
+}
+#section2 #bgService h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+  font-family: 'Autography';
+  font-weight: 100;
+  font-size: 52px;
+  color: white;
+}
+#section2 #bgService .repeater-grid {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white !important;
+  margin: 2% auto;
+}
+#section2 #bgService .repeater-grid div {
+  margin: 0 40px;
+}
+#section2 #bgService .repeater-grid div h2 {
+  width: 250px;
+  height: 75px;
+  margin: 0 auto;
+  margin-top: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color: #f7f7f8;
+  text-align: center;
+}
+#section2 #bgService .repeater-grid div p {
+  width: 280px;
+  height: 160px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #f7f7f8;
+  text-align: center;
+}
+#section2 #bgService .repeater-grid div button {
+  width: 158px;
+  height: 48px;
+  background-color: white;
+  border: 1px solid white;
+  color: #2d424a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+#section2 #bgService .repeater-grid div button:hover {
+  background-color: rgba(255, 255, 255, 0.856);
+}
+#section2 #dailyPlans {
+  display: flex;
+}
+#section2 #dailyPlans div {
+  margin-left: 30%;
+}
+#section2 #dailyPlans div h1 {
+  margin-top: -5%;
+  font-family: 'Autography';
+  font-size: 28px;
+  color: #36312e;
+}
+#section2 #dailyPlans div p {
+  width: 631px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #36312e;
+  margin-right: 82px;
+}
+#section2 #dailyPlans button {
+  width: 187px;
+  height: 48px;
+  margin-top: -15px;
+  background-color: #36312e;
+  border: 1px solid #36312e;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+#section2 #dailyPlans button:hover {
+  background-color: #2b2725;
+}
+
+#section2 #ImagineLife h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+  font-family: 'Autography';
+  font-weight: 100;
+  font-size: 52px;
+  color: #36312e;
+}
+#section2 #ImagineLife .repeater-grid {
+  width: 884px;
+  margin: 2% auto;
+}
+#section2 #ImagineLife .repeater-grid div {
+  display: flex;
+  justify-content: center;
+  margin: 20px 40px;  
+}
+#section2 #ImagineLife .repeater-grid div img{
+  width: 350px !important;
+  height: 350px !important;
+}
+#section2 #ImagineLife .repeater-grid div div{
+  display: flex;
+  flex-direction: column;
+}
+#section2 #ImagineLife .repeater-grid div h2 {
+  width: 400px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color: #36312e;
+}
+#section2 #ImagineLife .repeater-grid div p {
+  width: 508px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #36312e;
+}
+
+#section2 #bookComplementoryCall {
+  /* background: url('./images/BG\ C2A\ Section.png');
+  height: 929px;
+  width: 1596px; */
+  margin-top: -110px;
+  /* display: flex; */
+}
+#section2 #bookComplementoryCall img{
+  width: 90%;
+}
+#section2 #bookComplementoryCall div {
+  display: flex;
+  margin-top: -15%;
+}
+#section2 #bookComplementoryCall div div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+}
+#section2 #bookComplementoryCall div div h1 {
+  font-family: 'Autography';
+  font-weight: 100;
+  font-size: 45px;
+  color: white;
+}
+#section2 #bookComplementoryCall div div p {
+  width: 502px;
+  margin-top: -3%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+#section2 #bookComplementoryCall div button {
+  width: 158px;
+  height: 48px;
+  margin-top: -10%;
+  margin-left: 150px;
+  background-color: white;
+  border: 1px solid white;
+  color: #2d424a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+#section2 #bookComplementoryCall button:hover {
+  background-color: #EBEBEB;
+}
+/* #section2 #socialAwards{
+  background: url('./images/Social\ Awards\ LInes.svg') no-repeat;
+  height: 611px;
+  width: 300px;
+  margin-top: 5%;
+} */
+#section2 #socialAwards img{
+  margin-top: 5%;
+  width: 100%;
+  height: 811px;
+}
+#section2 #socialAwards div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-self: center;
+  align-items: center;
+  padding: 0%;
+  margin-top: -45%;
+}
+#section2 #socialAwards div h1{
+  font-family: 'Autography';
+  font-weight: 100;
+  font-size: 50px;
+  color: #2D424A;
+
+}
+#section2 #socialAwards div img:first-of-type{
+  margin: 0;
+  margin-top: 2%;
+  width: 123px;
+  height: 123px;
+}
+#section2 #socialAwards div img:last-of-type{
+  margin-top: 2%;
+  width: 368px;
+  height: 51px;
+}
+#section2 #socialAwards div p{
+  margin: 0;
+  color: #2d424a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+}
+#section2 #sayHello img{
+  margin-top: 3%;
+  width: 100%;
+  height: 950px;
+}
+#section2 #sayHello div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-self: center;
+  align-items: center;
+  padding: 0%;
+  margin-top: -40%;
+}
+#section2 #sayHello div h1{
+  font-family: 'Autography';
+  font-weight: 100;
+  font-size: 50px;
+  color: #2D424A;
+
+}
+#section2 #sayHello div p{
+  margin-top: -2%;
+  margin-bottom: 25px;
+  color: #36312E;
+  font-family: 'Poppins', sans-serif;
+  width: 900px;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+}
+#section2 #sayHello div input{
+  width: 482px;
+  height: 48px;
+  padding: 3px 15px;
+  color: #C4C4C4;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 5px auto;
+  border: none;
+  border: 1px solid #2D424A;
+  outline: none;
+}
+#section2 #sayHello div textarea{
+  width: 482px;
+  height: 130px;
+  padding: 3px 15px;
+  color: #C4C4C4;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 5px auto;
+  border: none;
+  border: 1px solid #2D424A;
+  outline: none;
+}
+#section2 #sayHello div button {
+  width: 158px;
+  height: 48px;
+  background-color: #2d424a;
+  border: 1px solid #2d424a;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-top: 26px;
+}
+#section2 #sayHello div button:hover {
+  background-color: #2b2725;
+}
+#footer{
+  margin-top: 5%;
+  height: 300px;
+  background-color: #2d424a;
+  color: white;
+}
+#footer div{
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+}
+#footer div h1{
+  font-family: 'Autography';
+  font-weight: 100;
+  font-size: 60px;
+  margin-right: 121px;
+}
+#footer div ul{
+  list-style: none;
+  padding-top: 1.5%;
+  margin-right: 70px;
+}
+#footer div ul:last-of-type{
+  margin-right: 168px;
+}
+#footer div ul li{
+  margin-bottom: 20px;
+  width: 95px;
+}
+#footer div ul li a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
